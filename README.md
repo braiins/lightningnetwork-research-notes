@@ -8,7 +8,7 @@
 
 
 # Resources
-- original LN whitepaper: https://lightning.network/lightning-network-paper.pdf
+- original LN whitepaper: <https://lightning.network/lightning-network-paper.pdf>
 
 - a series of articles covering many aspects of LN:
   - https://bitcoinmagazine.com/articles/understanding-the-lightning-network-part-building-a-bidirectional-payment-channel-1464710791/
