@@ -1,4 +1,7 @@
+# Presentation link
+ <LightningNetwork.pdf>
 # BIPS
+
 
 ## Relative lock-time
 
@@ -24,3 +27,25 @@
 - THE WIKI - terminology: <https://en.bitcoin.it/wiki/Lightning_Network>
 - setting up and testing with a faucet (free giveaway of coins through LN channel): <http://lightning.community/lnd/faucet/2017/01/19/lightning-network-faucet/>
 - Elements project: <https://github.com/ElementsProject/lightning/tree/master/doc>
+
+# Demo
+
+# Environment setup
+
+```
+mkdir ln-example
+cd ln-example
+virtualenv .venv
+git clone https://github.com/braiins/lnd
+. .venv/bin/activate
+cd lnd/docker
+git checkout -b ltc-rebased-master origin/ltc-rebased-master
+source conf/bitcoin
+```
+
+And follow the README.md and start charlie too:
+
+```
+docker-compose up -d --no-recreate charlie
+docker exec -ti btc_charlie /bin/bash
+```
