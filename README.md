@@ -1,5 +1,4 @@
-# Presentation link
- <LightningNetwork.pdf>
+# [Presentation link](LightningNetwork.pdf)
 # BIPS
 
 
